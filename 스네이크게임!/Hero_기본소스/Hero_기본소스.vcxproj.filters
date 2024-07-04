@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ConsoleEx3">
+      <UniqueIdentifier>{594a1f05-98e3-4c47-823b-79095b3cc555}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ConsoleEx3\SysTimer.cpp">
+      <Filter>ConsoleEx3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ConsoleEx3\ConWrap.cpp">
+      <Filter>ConsoleEx3</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ConsoleEx3\SysTimer.h">
+      <Filter>ConsoleEx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ConsoleEx3\ConWrap.h">
+      <Filter>ConsoleEx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ConsoleEx3\ConWrapColors.h">
+      <Filter>ConsoleEx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ConsoleEx3\ConWrapDefines.h">
+      <Filter>ConsoleEx3</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="bady.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="apple.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\ConsoleEx3\conwrapex3_0301262300.chm">
+      <Filter>ConsoleEx3</Filter>
+    </None>
+    <None Include="..\ConsoleEx3\conwrapex3_0301262300.chw">
+      <Filter>ConsoleEx3</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\ConsoleEx3\개발일지.txt">
+      <Filter>ConsoleEx3</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

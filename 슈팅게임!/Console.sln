@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hero_기본소스", "Hero_기본소스\Hero_기본소스.vcxproj", "{E10413D9-76F5-4642-BA1D-66E675032E27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E10413D9-76F5-4642-BA1D-66E675032E27}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E10413D9-76F5-4642-BA1D-66E675032E27}.Debug|Win32.Build.0 = Debug|Win32
+		{E10413D9-76F5-4642-BA1D-66E675032E27}.Release|Win32.ActiveCfg = Release|Win32
+		{E10413D9-76F5-4642-BA1D-66E675032E27}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
